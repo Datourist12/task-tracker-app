@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
-const Task = () => {
+const Task = ({ task }) => {
+
   return (
     <div className="task">
-      <p className="title">Water plants</p>
+      <h2 className="title">{task.title}</h2>
+      <p>{task.due}</p>
+      <p>{task.status}</p>
+      <p>{task.description}</p>
+      <p>{task.user}</p>
     </div>
   );
 };
