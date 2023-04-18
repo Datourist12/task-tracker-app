@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
-import TaskLayout from "./pages/taskLayout";
+import TaskLayout from "./pages/TaskLayout";
 
 function App() {
   return (
